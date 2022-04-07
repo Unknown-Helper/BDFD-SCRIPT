@@ -1,0 +1,10 @@
+$deletecommand
+$color[2883b6]
+$onlyAdmin[xakamu tidak punya izin]
+$argsCheck[>1; coba '?clear <jumlah pesan>]
+$argsCheck[1;Tolong masukan jumlah pesan. (1-100)]
+$nomention
+$clear[$message]
+$title[ ✅ Sukses]
+$description[✅berhasil menghapus $message pesan!]
+$deleteIn[3s]
