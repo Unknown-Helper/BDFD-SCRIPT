@@ -1,0 +1,10 @@
+$nomention
+ $changeUsernameWithID[$authorID;『ROLE NAME』$replaceText[$message;$message[0];;-0]] $giveRole[$authorID;role id]
+
+$title[✅ • Sukses]
+ $description[<@$authorID> Diterima, Anda telah berhasil daftar di server $serverName[$guildID] Semoga betah!]
+$onlyBotPerms[managenicknames;❌ Botmu Harus diberi role admin kalau ingin pakai cmd ini!!] 
+$onlyForChannels[channel register;Kamu hanya bisa menggunakan itu di channel <#952386713559379998>] 
+$argsCheck[>1;?reg (nama kamu)]
+$addTimestamp $footer[$username telah daftar di reborn]
+ $color[$random[5;1000000]]
